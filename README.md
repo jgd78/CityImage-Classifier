@@ -9,6 +9,6 @@ ImageProcessor turns these images into 4 dimension tensors for training, creates
 
 Imageresizer takes each image and resizes it to a (293,400,700,3) image with channels RGB mode and 293 training examples. 
 
-The model uses a convolutional neural network for feature extraction to train the classifier on. This in includes 3 repetitions of 2D convolution followed by a max pooling layer. The 2D convolutions have 32, 64, and 128 filters respectively, each with a (3,3) filter size. The max pooling each have a (2,2) pool size. Finally, there is a flatten layer followed by 2 fully connected layers. The ouput has a softmax activation. 
+The model uses a convolutional neural network for feature extraction to train the classifier on. This includes 3 repetitions of 2D convolution followed by a max pooling layer. The 2D convolutions have 32, 64, and 128 filters respectively, each with a (3,3) filter size. The max pooling each have a (2,2) pool size. Finally, there is a flatten layer followed by 2 fully connected layers. The ouput has a softmax activation. 
 
 
